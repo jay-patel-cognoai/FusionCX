@@ -302,6 +302,113 @@
     App layout
   </a>
   
+    <nav class="md-nav" aria-label="App layout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-needed-from-ameyo" class="md-nav__link">
+    What is needed from Ameyo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send" class="md-nav__link">
+    Send
+  </a>
+  
+    <nav class="md-nav" aria-label="Send">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postman-documentation" class="md-nav__link">
+    Postman Documentation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receive" class="md-nav__link">
+    Receive
+  </a>
+  
+    <nav class="md-nav" aria-label="Receive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assingagentrequest" class="md-nav__link">
+    AssingAgentRequest
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pullmessagefromameyoagent" class="md-nav__link">
+    PullMessageFromAmeyoAgent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postman-documentation_1" class="md-nav__link">
+    Postman Documentation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patches" class="md-nav__link">
+    Patches
+  </a>
+  
+    <nav class="md-nav" aria-label="Patches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v47-dev" class="md-nav__link">
+    v4.7-dev
+  </a>
+  
+    <nav class="md-nav" aria-label="v4.7-dev">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    Web
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whatsapp" class="md-nav__link">
+    WhatsApp
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -379,6 +486,113 @@
     App layout
   </a>
   
+    <nav class="md-nav" aria-label="App layout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-needed-from-ameyo" class="md-nav__link">
+    What is needed from Ameyo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#send" class="md-nav__link">
+    Send
+  </a>
+  
+    <nav class="md-nav" aria-label="Send">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postman-documentation" class="md-nav__link">
+    Postman Documentation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#receive" class="md-nav__link">
+    Receive
+  </a>
+  
+    <nav class="md-nav" aria-label="Receive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assingagentrequest" class="md-nav__link">
+    AssingAgentRequest
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pullmessagefromameyoagent" class="md-nav__link">
+    PullMessageFromAmeyoAgent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postman-documentation_1" class="md-nav__link">
+    Postman Documentation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patches" class="md-nav__link">
+    Patches
+  </a>
+  
+    <nav class="md-nav" aria-label="Patches">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#v47-dev" class="md-nav__link">
+    v4.7-dev
+  </a>
+  
+    <nav class="md-nav" aria-label="v4.7-dev">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web" class="md-nav__link">
+    Web
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whatsapp" class="md-nav__link">
+    WhatsApp
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -429,6 +643,67 @@
     utils_validation.py       # AmeyoApp class validations
     views_ameyowebhook.py     # AmeyoWebhook edit from frontend (Optional)
 </code></pre>
+<h3 id="what-is-needed-from-ameyo">What is needed from Ameyo</h3>
+<ul>
+<li>AmeyoAppID - This is the AppID given by Ameyo.</li>
+<li>AmeyoAppID serves as a 1-1 relationship between bot_id and ameyo_app_id. e.g- 44ea1a352b89661ae2e89526247894e3</li>
+<li>bot_chat - Webhook endpoint to send bot chat history.</li>
+<li>livechat_text - Webhook endpoint to send livechat text.</li>
+<li>livechat_file - Webhook endpoint to send livechat file.</li>
+<li>chat_disconnected - Webhook endpoint to send customer end chat status.</li>
+</ul>
+<h2 id="send">Send</h2>
+<p>Four API's of Ameyo are consumed by Cogno. The function api calls at Cogno end are -:</p>
+<p><code>bot_chat_hisrtory</code>, <code>livechat_text</code>, <code>livechat_file</code>, <code>chat_disconnected</code>.</p>
+<h3 id="postman-documentation">Postman Documentation</h3>
+<p>Payloads coming from ameyo can be manualluy triggered using this.</p>
+<p><a href="https://documenter.getpostman.com/view/13564927/UyxgJ7nw">https://documenter.getpostman.com/view/13564927/UyxgJ7nw</a></p>
+<p><code>Note : All webhooks endpoints are mostly same, they just differ in payloads.</code></p>
+<h2 id="receive">Receive</h2>
+<p>Two API's of Cogno are consumed by Ameyo. The views at Cogno end are -:</p>
+<ul>
+<li><code>AssignAgentRequest</code> - This is used to for agent assignment logic only and pre-assignment system messages.</li>
+<li><code>PullMessageFromAmeyoAgent</code> - This is used for receiving messages and media from ameyo agent as well as customer end chat status.</li>
+</ul>
+<h3 id="assingagentrequest">AssingAgentRequest</h3>
+<ul>
+<li><code>AGENT_JOINED_CHAT</code> - Payload with this identifier indicates to assign agent to respective livechat_session_id. If the ameyo_agent_name field in LiveChatUser is present in database then it'll assign the chat to that agent else it'll create new agent with that name and assign chat to it.</li>
+<li><code>SEARCHING_FOR_AGENT</code>.. - Payload with this identifier is only displayed as a system message.
+ALL_AGENT_BUSY - Payload with this identifier indicates no agent is available to pick the chat, hence mark the session as expired.</li>
+</ul>
+<h3 id="pullmessagefromameyoagent">PullMessageFromAmeyoAgent</h3>
+<ul>
+<li><code>AGENT_MESSAGE</code> - Payload with this identifier indicates normal agent message from ameyo.</li>
+<li><code>AGENT_MESSAGE</code> attachment - Payload with this identifier indicates normal agent media message from ameyo.</li>
+<li><code>AGENT_LEFT_CHAT</code> - Payload with this identifier indicates agent has closed the chat and display feedback form at cogno end.</li>
+</ul>
+<h3 id="postman-documentation_1">Postman Documentation</h3>
+<p><a href="https://documenter.getpostman.com/view/13564927/UyxgH7j7">https://documenter.getpostman.com/view/13564927/UyxgH7j7</a></p>
+<h2 id="patches">Patches</h2>
+<h3 id="v47-dev">v4.7-dev</h3>
+<p>Download and unzip <a href="https://drive.google.com/file/d/17ODWN5zW2NR_vjjf8G9iuuBmnRMhW0RB/view?usp=sharing">AmeyoApp</a> in EasyChat folder then, register it in INSTALLED_APPS and logger.</p>
+<h4 id="web">Web</h4>
+<ul>
+<li>
+<p><code>theme3.js</code> <a href="https://github.com/cognoai/TrafalgarChatbot/commit/5eedc79baa24416172a75040ee7e858fba3571d3">5eedc79</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/415f156667da679f5916d7756e78e05f076c392b">415f156</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/98d4c747890675283e7bddfc5f64b1c904aa1f95">98d4c74</a></p>
+</li>
+<li>
+<p><code>livechat.js</code> <a href="https://github.com/cognoai/TrafalgarChatbot/commit/98d4c747890675283e7bddfc5f64b1c904aa1f95">98d4c74</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/55deb2ade3c5fabd418d3c6f2f56b92232fd7a78">55deb2a</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/fa40d345682b3d29fc84a2a7993ab1baa045f3b0">fa40d34</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/5eedc79baa24416172a75040ee7e858fba3571d3">5eedc79</a></p>
+</li>
+<li>
+<p><code>LiveChatApp/views_agent.py</code> <a href="https://github.com/cognoai/TrafalgarChatbot/commit/3a481d3daae2268d4a1cda43fc0f3346804a0aac">3a481d3</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/98d4c747890675283e7bddfc5f64b1c904aa1f95">98d4c74</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/9bacb2ce199a34e0825c6822b8fb77041a9628a4">9bacb2c</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/55deb2ade3c5fabd418d3c6f2f56b92232fd7a78">55deb2a</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/fa40d345682b3d29fc84a2a7993ab1baa045f3b0">fa40d34</a></p>
+</li>
+<li>
+<p><code>LiveChatApp/models.py</code> <a href="https://github.com/cognoai/TrafalgarChatbot/commit/13ca1a205233a49a66d00c909c4a3245331ba106">13ca1a2</a>, <a href="https://github.com/cognoai/TrafalgarChatbot/commit/fa40d345682b3d29fc84a2a7993ab1baa045f3b0">fa40d34</a></p>
+</li>
+<li>
+<p><code>LiveChatApp/constants.py</code> <a href="https://github.com/cognoai/TrafalgarChatbot/commit/fa40d345682b3d29fc84a2a7993ab1baa045f3b0">fa40d34</a></p>
+</li>
+</ul>
+<h4 id="whatsapp">WhatsApp</h4>
+<ul>
+<li><code>LiveChatApp/livechat_channels_webhook.py</code> <a href="https://github.com/cognoai/TrafalgarChatbot/commit/fa40d345682b3d29fc84a2a7993ab1baa045f3b0">fa40d34</a></li>
+</ul>
 
               
             </article>
